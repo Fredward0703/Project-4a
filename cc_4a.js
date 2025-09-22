@@ -34,4 +34,26 @@ for (let product of products) {
             break;
     }
     
-}
+};
+
+//attmepting step 4, again, wish me luck
+let customers = [
+    {customerType:"senior"},
+    {customerType:"student"},
+    {customerType:"cool person"},
+];
+
+if (customers.customerType = "senior") {
+    discount = .2
+    console.log(`For putting up with this planet for 60+ years, you get a ${(discount)*100}% discount!`)
+} else if (customers.customerType = "student") {
+    discount = .1
+    console.log(`Congrats on being a student, you get an extra ${(discount)*100}% off!`)
+} else if (customers.customerType = "cool person") {
+    discount = .05
+    console.log(`Thanks for being a cool person, you get a ${(discount)*100}% off`)
+} else {
+    console.log(`Sorry, no discounts applied at this moment`)
+};
+
+//think I did this statement right although I'm not sure how to test it besides adding extra ='s in each statement

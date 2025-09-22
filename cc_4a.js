@@ -6,7 +6,7 @@ const products = [
     {name:"Shampoo", Category:"Household",price:4.99,inventory:42},
     {name:"Chair", Category:"Household",price:49.99,inventory:12},
 ];
-console.log("===== Products I am selling =====")
+console.log("Products I am selling:")
 console.log(products)
 
 //attempting step 3, wish me luck
@@ -38,10 +38,11 @@ for (let product of products) {
 
 //attmepting step 4, again, wish me luck
 let customers = [
-    {customerType:"senior"},
-    {customerType:"student"},
-    {customerType:"cool person"},
+    {customerNumber: "1",customerType:"senior", item:"Laptop", qty:1},
+    {customerNumber: "2",customerType:"student", item:"Soccer ball", qty:4},
+    {customerNumber: "3",customerType:"cool person", item:"Shampoo", qty:2},
 ];
+   
 
 if (customers.customerType = "senior") {
     discount = .2
@@ -54,6 +55,8 @@ if (customers.customerType = "senior") {
     console.log(`Thanks for being a cool person, you get a ${(discount)*100}% off`)
 } else {
     console.log(`Sorry, no discounts applied at this moment`)
-};
+}
+
 
 //think I did this statement right although I'm not sure how to test it besides adding extra ='s in each statement
+//Starting step 5
